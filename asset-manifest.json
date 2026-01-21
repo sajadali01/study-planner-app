@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/study-planner-app/static/css/main.30a221fb.css",
+    "main.js": "/study-planner-app/static/js/main.f08d8a8d.js",
+    "index.html": "/study-planner-app/index.html",
+    "main.30a221fb.css.map": "/study-planner-app/static/css/main.30a221fb.css.map",
+    "main.f08d8a8d.js.map": "/study-planner-app/static/js/main.f08d8a8d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.30a221fb.css",
+    "static/js/main.f08d8a8d.js"
+  ]
+}
