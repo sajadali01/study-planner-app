@@ -162,11 +162,11 @@ const StudyPlannerApp = () => {
     return allSubjects.filter(s => {
       // If CS focus: exclude Biology and Maths
       if (focusSubject === 'Computer Science') {
-        return s !== 'Biology' && s !== 'Maths';
+        return s !== 'Biology';
       }
       // If Bio focus: exclude CS and Maths
       if (focusSubject === 'Biology') {
-        return s !== 'Computer Science' && s !== 'Maths';
+        return s !== 'Computer Science';
       }
       // For any other focus subject (shouldn't happen but safe fallback)
       return true;
